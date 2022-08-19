@@ -1,0 +1,6 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+192.168.5.11	FALSE	/	FALSE	1660935507	PHPSESSIDINTRANET572	q74jurvhl61mc8pf53o284h4a7uppak8
+#HttpOnly_192.168.5.11	FALSE	/	FALSE	0	io	eFjgUNL8LGBT5RVbAABF

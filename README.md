@@ -4,7 +4,6 @@
 # Por favor no modificar ningun archivo o carpeta original del Script
 # ya que el minimo cambio puede generar un error catastrófico y dar
 # a lugar a mi inminente muerte.
-# Sea considerado.
 
 # ############ DESCRIPCIÓN ################
 # Este Script consta de 3 directorios  y 3 archivos

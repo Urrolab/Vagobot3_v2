@@ -1,9 +1,7 @@
 # Vagobot3_v2
 # ######### VAGOBOT ##########
 
-# Por favor no modificar ningun archivo o carpeta original del Script
-# ya que el minimo cambio puede generar un error catastrófico y dar
-# a lugar a mi inminente muerte.
+# Por favor no modificar ningun archivo o carpeta original del Script ya que el minimo cambio puede generar un error catastrófico y dar a lugar a mi inminente muerte.
 
 # ############ DESCRIPCIÓN ################
 # Este Script consta de 3 directorios  y 3 archivos
@@ -12,24 +10,16 @@
 # Es literalmente este mismo archivo noseabolu.
 
 # ## VagobotBeta.py ###
-# Es el Script Padre/Maestro escrito en Python3, utiliza librerias como
-# Pandas, OpenPyxl, Colorama, Glob2 y librerias del sistema como OS, csv y Subprocess
-# Para más información, leer los comentarios dentro del mismo archivo.
+# Es el Script Padre/Maestro escrito en Python3, utiliza librerias como, Pandas, OpenPyxl, Colorama, Glob2 y librerias del sistema como OS, csv y Subprocess, para más información, leer los comentarios dentro del mismo archivo.
 
 # ## Contenedor_CSV ###
-# Dentro de esta carpeta se almacenan los .CSV descargados del Smart-GIS
-# para luego ser leidos por el Script en Python.
+# Dentro de esta carpeta se almacenan los .CSV descargados del Smart-GIS, para luego ser leidos por el Script en Python.
 
 # ## temp / usuarios / concat
-# Dentro del directorio temp se almacenan archivos temporales y dos carpetas
-# "usuarios" la cual almacena los archivos temporales .html que son eliminados
-# una ves terminan su función dentro del script. "concat" almacena archivos basura
-# generados por el Concatenador.sh.
+# Dentro del directorio temp se almacenan archivos temporales y dos carpetas "usuarios" la cual almacena los archivos temporales .html que son eliminados una ves terminan su función dentro del script. "concat" almacena archivos basura generados por el Concatenador.sh.
 
 # ## Vagobot_CORE ###
-# En este directorio se almacenan 4archivos: cookies2.txt, autoArrayxtreme.sh
-# Concatenador.sh, y WebScrapping.sh
-# Para mas información, leer los comentarios dentro de los mismos archivos.
+# En este directorio se almacenan 4archivos: cookies2.txt, autoArrayxtreme.sh, Concatenador.sh, y WebScrapping.sh. Para mas información, leer los comentarios dentro de los mismos archivos.
 
 # ############ INSTRUCCIONES ################
 
@@ -64,21 +54,16 @@
 # 1) Se descarga el archivo .csv del Smart-GIS de la intranet
 # Dentro del script hay varios .csv de prueba en el directorio Contenedor_CSV/
 
-# 2) Se debe renombrar el archivo descargado por el NAP reemplazando caracteres y espacios con guin bajo ejemplo: NAP 01/02 DV a NAP_01_02_DV.csv
-# Luego, guardar el archivo en el Contenedor_CSV/
+# 2) Se debe renombrar el archivo descargado por el NAP reemplazando caracteres y espacios con guin bajo ejemplo: NAP 01/02 DV a NAP_01_02_DV.csv. Luego, guardar el archivo en el Contenedor_CSV/
 
 # 3) Ejecutar VagobotBeta.py
-# En caso de tener archivos basura en la carpeta /temp el Script ejecutara una depuracion y preguntara al usuario si quiere realizar la depuración
-# Siempre y cuando no hayan archivos que querramos analizar, es altamente necesaria la depuracion para un nuevo Excel.
+# En caso de tener archivos basura en la carpeta /temp el Script ejecutara una depuracion y preguntara al usuario si quiere realizar la depuración siempre y cuando no hayan archivos que querramos analizar, es altamente necesaria la depuracion para un nuevo Excel.
 
 # 4) Ingresar el archivo
-# Se debe ejecutar la primera Opción, el Script ya detecta que el archivo NAP o NAPS este dentro del directorio y lo visualiza, simplemente hay que escribir 
-# el nombre del archivo exceptuando la extensión .csv
+# Se debe ejecutar la primera Opción, el Script ya detecta que el archivo NAP o NAPS este dentro del directorio y lo visualiza, simplemente hay que escribir el nombre del archivo exceptuando la extensión .csv
 
 # 5) Ejecutar el Script
-# Una vez finalizada la carga del archivo .csv se ejecuta el Script que genera el Excel, el programa es bastante descriptivo a la hora de tener un error,
-# si se siguieron todos los pasos, se tienen todas las dependencia necesarias y se ejecuto como root, no deberia haber ningun inconveniente.
+# Una vez finalizada la carga del archivo .csv se ejecuta el Script que genera el Excel, el programa es bastante descriptivo a la hora de tener un error, si se siguieron todos los pasos, se tienen todas las dependencia necesarias y se ejecuto como root, no deberia haber ningun inconveniente.
 
 # 6) ExcelFinal.xlsx
-# Al final del Script se entrega este archivo, con el excel ya formulado, con toda la información que fuimos recopilando, en este repositorio hay un Excel 
-# de prueba para ser analizado.
+# Al final del Script se entrega este archivo, con el excel ya formulado, con toda la información que fuimos recopilando, en este repositorio hay un Excel de prueba para ser analizado.
